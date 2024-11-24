@@ -1,14 +1,33 @@
 {
   "name": "cnc-documentation",
   "version": "1.0.0",
-  "description": "Hugo website with documentation for CNC project",
+  "description": "Hugo website with cnc documentation",
+  "main": "index.html",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "fontawesome-free": "^1.0.4",
+    "fontawesome": "^5.6.3",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "hugo server",
+    "build": "hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieterm/cnc-documentation.git"
+  },
   "keywords": [
     "cnc",
     "hugo"
   ],
-  "devDependencies": {
-    "fontawesome-free": "1.0.4",
-    "postcss":"8.4.49", 
-    "postcss-cli": "11.0.0"
-  }
+  "author": "Dieter Moeyersons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dieterm/cnc-documentation/issues"
+  },
+  "homepage": "https://github.com/dieterm/cnc-documentation#readme"
 }
