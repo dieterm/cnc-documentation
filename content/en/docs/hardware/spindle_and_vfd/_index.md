@@ -12,6 +12,10 @@ This is a placeholder page that shows you how to use this template site.
 
 {{< figure src="vfd_front.jpg" >}}
 
+<a class="btn btn-lg btn-secondary me-3 mb-4" target="blank" href="inverter.pdf">
+Inverter Manual <i class="fas fa-download ms-2"></i>
+</a>
+
 | What  |                   |
 | ----- | ----------------- |
 | Brand | huanyang electric |

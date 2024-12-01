@@ -54,13 +54,6 @@ Configuring PD numbers:
 - PD052 = 1 (relais op FA en FB terminal sluit, en start de pomp)
 ```
 
-```
-Z-Probe
--------
-g38.2 z-10 f1
-g92 z19.4
-```
-
 {{< figure src="Spindle Connection Diagram.jpg" >}}
 
 | What        |          |

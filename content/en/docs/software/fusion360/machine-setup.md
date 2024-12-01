@@ -21,3 +21,10 @@ G54 = specific work offset location
 P1 = parameter address (P1 is associated with G54 I think!)
 L2 = informs G10 we are setting work offsets (as opposed to tool offsets)
 ```
+
+```
+Z-Probe
+-------
+g38.2 z-10 f1
+g92 z19.4
+```
