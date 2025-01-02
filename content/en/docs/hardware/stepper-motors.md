@@ -23,9 +23,16 @@ ballscrew SFU1605
 stepperdriver TB6600
 -> 16 microsteps/step
 
-## X-as en Y-as
+> More microsteps = less torque, more aqurate <br />
+> Less microsteps = more torque, less aqurate
+
+## X-as
 
 steps per mm = (200steps x 16 microsteps) / 5mm = 640 microsteps / mm
+
+## Y-as
+
+steps per mm = (200steps x 4 microsteps) / 5mm = 160 microsteps / mm
 
 ## Z-as
 
